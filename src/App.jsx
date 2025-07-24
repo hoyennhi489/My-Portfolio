@@ -111,7 +111,19 @@ function App() {
       </div>
     </section>
 
-    <section id="contact"></section>
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>If you'd like to get in touch, feel free to reach out via email or check out my GitHub profile!</p>
+      
+      <div className="contact-info">
+        <a href="mailto:hyn489@gmail.com" className="contact-link">
+          📧 hyn489@gmail.com
+        </a>
+        <a href="https://github.com/hoyennhi489" target="_blank" className="contact-link">
+          💻 GitHub Profile
+        </a>
+      </div>
+    </section>
 
     </>
   )

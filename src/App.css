@@ -221,3 +221,44 @@ nav ul li a:hover {
   color: #333;
   font-weight: 500;
 }
+
+/* Contact Section */
+#contact {
+  padding: 4rem 2rem;
+  background-color: #fefefe;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 2rem;
+  color: #f4a8c4;
+  margin-bottom: 1rem;
+}
+
+#contact p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+.contact-link {
+  font-size: 1.1rem;
+  color: #f4a8c4;
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid #f4a8c4;
+  padding: 0.6rem 1.2rem;
+  border-radius: 30px;
+}
+
+.contact-link:hover {
+  background-color: #f4a8c4;
+  color: white;
+}
