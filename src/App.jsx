@@ -5,9 +5,16 @@ function App() {
     <>
       <nav>
         <div className="logo">
-          <img src="images/LOGO YN..png" alt="Yến Nhi Logo" height="100" />
+          <img src="images/LOGO YN.png" alt="Yến Nhi Logo" />
         </div>
-        <ul>
+
+        <input type="checkbox" id="menu-toggle" className="menu-toggle" />
+        <label htmlFor="menu-toggle" className="hamburger">
+            <span className="open">&#9776;</span>   {/* ☰ */}
+            <span className="close">&times;</span>  {/* × */}
+        </label>
+
+        <ul className="nav-links">
           <li><a href="#about">About Me</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#techStack">Tech Stack</a></li>
