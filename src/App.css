@@ -247,6 +247,35 @@ nav {
   background-color: #ea94b5;
 }
 
+/* Image hover pointer */
+.project-image {
+  cursor: pointer;
+}
+
+.project-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.project-code {
+  display: inline-block;
+  background-color: transparent;
+  color: #f4a8c4;
+  text-decoration: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 25px;
+  font-weight: 600;
+  border: 2px solid #f4a8c4;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.project-code:hover {
+  background-color: #f4a8c4;
+  color: white;
+}
+
 @media (max-width: 1024px) {
   .projects-grid {
     grid-template-columns: repeat(2, 1fr);
