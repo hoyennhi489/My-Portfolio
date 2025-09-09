@@ -42,6 +42,18 @@ function App() {
         <div className="projects-grid">
 
           <div className="project-card">
+            <a href="https://hoyennhi489.github.io/beautynest-react/" target="_blank">
+              <img src="images/beautynest-react.png" alt="Beautynest" className="project-image" />
+            </a>
+            <h3>Beautynest – Cosmetics Store</h3>
+            <p>Cosmetics e-commerce site built with React, featuring Products, Cart, and Orders.</p>
+            <div className="project-buttons">
+              <a href="https://hoyennhi489.github.io/beautynest-react/" target="_blank" className="project-link">View Live</a>
+              <a href="https://github.com/hoyennhi489/beautynest-react.git" target="_blank" className="project-code">View Code</a>
+            </div>
+          </div>
+
+          <div className="project-card">
             <a href="https://hoyennhi489.github.io/Book-Haven-Bookstore/" target="_blank">
               <img src="images/bookstore.jpg" alt="Book Haven Bookstore" className="project-image" />
             </a>
@@ -147,6 +159,31 @@ function App() {
             <img src="images/github.png" alt="GitHub" />
             <p>GitHub</p>
           </div>
+        </div>
+      </section>
+
+      <section id="certificates">
+        <h2>My Certificates</h2>
+        <p>Some of the certificates I’ve earned while learning and improving my skills:</p>
+        <div className="certificates-grid">
+          <div className="certificate-card">
+            <img src="images/Responsive Web Design.png" alt="Responsive Web Design" />
+            <h3>Responsive Web Design</h3>
+            <p>FreeCodeCamp</p>
+          </div>
+          <div className="certificate-card">
+            <img src="images/JavaScript Algorithms and Data Structures.png" alt="JavaScript Algorithms and Data Structures" />
+            <h3>JavaScript Algorithms & Data Structures</h3>
+            <p>FreeCodeCamp</p>
+          </div>
+          <div className="certificate-card">
+            <img src="images/Front End Development Libraries.png" alt="Frontend Development Libraries" />
+            <h3>Frontend Development Libraries</h3>
+            <p>FreeCodeCamp</p>
+          </div>
+        </div>
+        <div className="project-buttons">
+          <a href="https://github.com/hoyennhi489/My-Certificates" target="_blank" className="project-link">View All Certificates</a>
         </div>
       </section>
 
