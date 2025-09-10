@@ -40,7 +40,7 @@ function App() {
       <section id="projects">
         <h2>My Projects</h2>
         <div className="projects-grid">
-          {/* Các project-card giữ nguyên */}
+
           <div className="project-card">
             <a href="https://hoyennhi489.github.io/beautynest-react/" target="_blank">
               <img src="images/beautynest-react.png" alt="Beautynest" className="project-image" />
@@ -53,7 +53,77 @@ function App() {
             </div>
           </div>
 
-          {/* ... các project-card khác giữ nguyên ... */}
+          <div className="project-card">
+            <a href="https://hoyennhi489.github.io/Book-Haven-Bookstore/" target="_blank">
+              <img src="images/bookstore.jpg" alt="Book Haven Bookstore" className="project-image" />
+            </a>
+            <h3>Book Haven Bookstore</h3>
+            <p>Responsive online bookstore with categories and clean UI.</p>
+            <div className="project-buttons">
+              <a href="https://hoyennhi489.github.io/Book-Haven-Bookstore/" target="_blank" className="project-link">View Live</a>
+              <a href="https://github.com/hoyennhi489/Book-Haven-Bookstore" target="_blank" className="project-code">View Code</a>
+            </div>
+          </div>
+
+          <div className="project-card">
+            <a href="https://hoyennhi489.github.io/fcc-javaScript-calculator/" target="_blank">
+              <img src="images/calculator.jpg" alt="JavaScript Calculator" className="project-image" />
+            </a>
+            <h3>JavaScript Calculator</h3>
+            <p>Basic calculator built with JavaScript. FreeCodeCamp project.</p>
+            <div className="project-buttons">
+              <a href="https://hoyennhi489.github.io/fcc-javaScript-calculator/" target="_blank" className="project-link">View Live</a>
+              <a href="https://github.com/hoyennhi489/fcc-javaScript-calculator" target="_blank" className="project-code">View Code</a>
+            </div>
+          </div>
+
+          <div className="project-card">
+            <a href="https://hoyennhi489.github.io/fcc-25-5-clock/" target="_blank">
+              <img src="images/clock.jpg" alt="25 + 5 Clock" className="project-image" />
+            </a>
+            <h3>25 + 5 Clock</h3>
+            <p>Pomodoro-style timer for productivity. HTML, CSS, JavaScript.</p>
+            <div className="project-buttons">
+              <a href="https://hoyennhi489.github.io/fcc-25-5-clock/" target="_blank" className="project-link">View Live</a>
+              <a href="https://github.com/hoyennhi489/fcc-25-5-clock" target="_blank" className="project-code">View Code</a>
+            </div>
+          </div>
+
+          <div className="project-card">
+            <a href="https://hoyennhi489.github.io/translator-app/" target="_blank">
+              <img src="images/translator.jpg" alt="Translator App" className="project-image" />
+            </a>
+            <h3>Translator App</h3>
+            <p>Language translator using LibreTranslate API.</p>
+            <div className="project-buttons">
+              <a href="https://hoyennhi489.github.io/translator-app/" target="_blank" className="project-link">View Live</a>
+              <a href="https://github.com/hoyennhi489/translator-app" target="_blank" className="project-code">View Code</a>
+            </div>
+          </div>
+
+          <div className="project-card">
+            <a href="https://hoyennhi489.github.io/Weather-App/" target="_blank">
+              <img src="images/weather.jpg" alt="Weather App" className="project-image" />
+            </a>
+            <h3>Weather App</h3>
+            <p>Weather forecast by city using OpenWeatherMap API.</p>
+            <div className="project-buttons">
+              <a href="https://hoyennhi489.github.io/Weather-App/" target="_blank" className="project-link">View Live</a>
+              <a href="https://github.com/hoyennhi489/Weather-App" target="_blank" className="project-code">View Code</a>
+            </div>
+          </div>
+
+          <div className="project-card">
+            <a href="https://hoyennhi489.github.io/github-profile-finder/" target="_blank">
+              <img src="images/github.jpg" alt="GitHub Profile Finder" className="project-image" />
+            </a>
+            <h3>GitHub Profile Finder</h3>
+            <p>Search and display GitHub profiles using the GitHub API.</p>
+            <div className="project-buttons">
+              <a href="https://hoyennhi489.github.io/github-profile-finder/" target="_blank" className="project-link">View Live</a>
+              <a href="https://github.com/hoyennhi489/github-profile-finder" target="_blank" className="project-code">View Code</a>
+            </div>
+          </div>
 
         </div>
       </section>
@@ -112,7 +182,6 @@ function App() {
             <p>FreeCodeCamp</p>
           </div>
         </div>
-
         <div className="certificates-button">
           <a
             href="https://github.com/hoyennhi489/My-Certificates"
