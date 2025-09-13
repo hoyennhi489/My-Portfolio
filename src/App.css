@@ -94,7 +94,6 @@ nav {
     display: flex;
   }
 
-  /* Đổi icon ☰ → × khi mở */
   .menu-toggle:checked + .hamburger .open {
     display: none;
   }
@@ -192,14 +191,13 @@ nav {
   margin-bottom: 2rem;
 }
 
-/* PROJECTS GRID: 3 per row on desktop, centered, equal-height rows */
 .projects-grid {
-  max-width: 1200px;               /* khung chứa rộng tối đa */
-  margin: 0 auto;                  /* căn giữa khung */
+  max-width: 1200px;
+  margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 cột trên desktop */
-  gap: 1.6rem;                      /* khoảng cách hợp lý */
-  grid-auto-rows: 1fr;             /* hàng cao bằng nhau */
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+  grid-auto-rows: 1fr;
   justify-items: center;
   align-items: start;
 }
@@ -213,7 +211,7 @@ nav {
   width: 100%;
   display: flex;
   flex-direction: column;
-  height: 100%;       /* cho grid-auto-rows hoạt động (đều chiều cao) */
+  height: 100%;
 }
 
 .project-card img {
@@ -237,12 +235,11 @@ nav {
   margin-bottom: 1rem;
 }
 
-/* Đẩy nút xuống đáy card để đồng đều */
 .project-buttons {
   display: flex;
   justify-content: center;
   gap: 1rem;
-  margin-top: auto; /* đây giúp nút luôn nằm dưới card */
+  margin-top: auto;
 }
 
 .project-link {
@@ -276,7 +273,6 @@ nav {
   color: white;
 }
 
-/* Responsive: 2 columns for tablet, 1 for mobile */
 @media (max-width: 1024px) {
   .projects-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -304,6 +300,8 @@ nav {
 }
 
 .tech-grid {
+  max-width: 1200px; 
+  margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   gap: 2rem;
@@ -395,7 +393,6 @@ nav {
   margin-bottom: 2rem;
 }
 
-/* CERTIFICATES GRID: match Projects (3 per row desktop) */
 .certificates-grid {
   max-width: 1200px;
   margin: 0 auto;
@@ -440,7 +437,6 @@ nav {
   color: #777;
 }
 
-/* Responsive for certificates */
 @media (max-width: 1024px) {
   .certificates-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -471,4 +467,10 @@ nav {
 .certificates-button {
   margin-top: 2rem;
   text-align: center;
+}
+
+/* Footer */
+footer {
+  color: #555;
+  font-size: 0.95rem;
 }
