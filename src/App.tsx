@@ -1,6 +1,7 @@
+import React from 'react'
 import './App.css'
 
-function App() {
+const App: React.FC = () => {
   return (
     <>
       <nav>
@@ -10,8 +11,8 @@ function App() {
 
         <input type="checkbox" id="menu-toggle" className="menu-toggle" />
         <label htmlFor="menu-toggle" className="hamburger">
-          <span className="open">&#9776;</span>   {/* ☰ */}
-          <span className="close">&times;</span>  {/* × */}
+          <span className="open">&#9776;</span> {/* ☰ */}
+          <span className="close">&times;</span> {/* × */}
         </label>
 
         <ul className="nav-links">
